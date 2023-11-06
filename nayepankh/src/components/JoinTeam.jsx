@@ -4,7 +4,7 @@ const JoinTeam = () => {
   return (
     <div className="join">
       <div className="box"></div>
-      <div className="form">
+      <div className="form1">
         <h2>Join Our Team</h2>
         <form className="formdata">
           <input type="text" placeholder="Enter Your Name"></input>

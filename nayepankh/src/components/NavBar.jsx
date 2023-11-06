@@ -24,7 +24,9 @@ const NavBar = () => {
           <Link to="/about">About Us</Link>
           <Link to="/certificate">Certificates</Link>
           <Link to="/news">News Recognition</Link>
+
           <div className='it' onClick={openContactModal}>Contact Us</div>
+<Link to="/login">Login</Link>
         </div>
       </div>
       <ContactUs isOpen={isContactModalOpen} onRequestClose={closeContactModal} />
