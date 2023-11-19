@@ -20,13 +20,14 @@ const NavBar = () => {
       <div className="navbar">
         <div className="logo"><img src={logo} className="logo_img" alt="Logo" /></div>
         <div className="links">
-          <Link to="/Home">Home</Link>
-          <Link to="/about">About Us</Link>
-          <Link to="/certificate">Certificates</Link>
-          <Link to="/news">News Recognition</Link>
+          <Link to="/Home" className="nn">Home</Link>
+          <Link to="/about" className="nn">About Us</Link>
+          <Link to="/certificate" className="nn">Certificates</Link>
+          <Link to="/news" className="nn">News Recognition</Link>
+          <Link to="/review" className="nn">Reviews</Link>
 
-          <div className='it' onClick={openContactModal}>Contact Us</div>
-<Link to="/login">Login</Link>
+          <div className='it nn' onClick={openContactModal}>Contact Us</div>
+<Link to="/login"  className="nn">Login</Link>
         </div>
       </div>
       <ContactUs isOpen={isContactModalOpen} onRequestClose={closeContactModal} />

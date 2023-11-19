@@ -11,6 +11,8 @@ import HomePage from "./Pages/HomePage";
 import CertificatePage from "./Pages/CertificatePage";
 import News from "./Pages/News";
 import LoginRegister from "./components/LoginRegister";
+import Reviews from "./components/Reviews";
+
 
 function App() {
   return (
@@ -23,7 +25,8 @@ function App() {
             <Route path="/certificate" element={<CertificatePage />} />
             <Route path="/Home" element={<HomePage />} />
             <Route path="/news" element={<News />} />
-<Route path="/login" element={<LoginRegister/>}/>
+            <Route path="/login" element={<LoginRegister />} />
+            <Route path="/review" element={<Reviews />} />
           </Route>
         </Routes>
       </BrowserRouter>

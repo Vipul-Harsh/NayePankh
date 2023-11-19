@@ -1,0 +1,99 @@
+.full{
+    background-color: aqua;
+    height: 100vh;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url('https://img.freepik.com/free-vector/hand-painted-watercolor-nature-background_23-2148941599.jpg?w=740&t=st=1700380919~exp=1700381519~hmac=29accb70caa7838e6fd5bfd9b195063658765a050f04a1931ffa52c028cf1161');
+    background-size: cover;
+}
+.write{
+    background:linear-gradient(to right,rgb(139, 245, 139),green);
+    text-align: center;
+    height: 100px;
+    width: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 700;
+color: white;
+    position: fixed;
+    right: 10px;
+    bottom: 10px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+h6{
+    font-weight: 800 !important;
+    color: white;
+    text-decoration: underline;
+}
+.image{
+    position: relative;
+    left: 0;
+    height: 70%;
+    width: 100%;
+}
+.temporary{
+  
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 40px;
+    width: 40%;
+}
+.card1{
+    border-radius: 40px;
+    box-shadow: 5px 5px 5px 5px rgba(87, 86, 86, 0.288);
+    height: 40%;
+    width: 100%;
+    background-color: white;
+}
+.haedtit{
+    height: 40%;
+    width: 100%;
+    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.iag{
+    height: 100%;
+    width: 100%;
+}
+.avatar{
+    height: 100%;
+    width: 20%;
+  
+    border-radius: 50%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.siz{
+    height: 100% !important;
+    width: 100% !important;
+}
+.ratings{
+    height: 100%;
+    width: 50%;
+  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.p{
+    text-align: center;
+    margin-top: 30px;
+    font-weight: 600;
+    font-size: 17px;
+    overflow: hidden;
+}
+.que{
+    font-weight: 600;
+    font-size: 40px;
+}
