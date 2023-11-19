@@ -1,7 +1,8 @@
 # NayePankh
 # To start the website on your pc
 steps:
-# go to server nayepankh folder
+# clone project and open folder NayePankh
+# go to  nayepankh folder using cd nayepankh
 # go to server folder inside nayepankh folder using cd server
 # run command "npm run dev" as i have used concurrently on server side to run fronend and backend at same time
 
