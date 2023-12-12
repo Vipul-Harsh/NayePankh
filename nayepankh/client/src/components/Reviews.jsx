@@ -90,7 +90,7 @@ const Reviews = () => {
             <ModalContent
              style={{
                 position: "fixed",
-                right: "10px",
+                left: "10px",
                 height:"60%",
                 width:"30%",
                 bottom: "10px",

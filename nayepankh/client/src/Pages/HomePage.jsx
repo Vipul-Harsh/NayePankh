@@ -1,23 +1,24 @@
 import React from 'react'
-import About from '../components/About'
-import Background from '../components/Background'
-import Crausel from '../components/Crausel'
-import Footer from '../components/Footer'
-import JoinTeam from '../components/JoinTeam'
-import NavBar from '../components/NavBar'
+import NavBar from "../components/NavBar"
+import Background from "../components/Background"
+import About from "../components/About"
 
+import Crausel from "../components/Crausel"
+import JoinTeam from "../components/JoinTeam"
+import Footer from "../components/Footer"
+import ChatBot from "../components/ChatBot"
 const HomePage = () => {
   return (
-	<div>
+    <div>
 <NavBar />
 <Background/>
 <About />
+<ChatBot/>
 <Crausel />
 <JoinTeam/>
 <Footer/>
-
-</div>
+    </div>
   )
 }
 
-export default HomePage
+export default HomePage;
